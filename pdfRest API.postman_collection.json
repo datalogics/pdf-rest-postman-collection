@@ -1,0 +1,1203 @@
+{
+	"info": {
+		"_postman_id": "d2efe721-5e2f-42e6-b36c-266358b82dd9",
+		"name": "pdfRest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17528463"
+	},
+	"item": [
+		{
+			"name": "Convert to PDF",
+			"item": [
+				{
+					"name": "Convert to PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/rainbow.tif"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "url",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "pdf_out",
+									"type": "text"
+								},
+								{
+									"key": "compression",
+									"value": "lossy",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "downsample",
+									"value": "300",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "tagged_pdf",
+									"value": "off",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "page_size",
+									"value": "letter",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "page_margin",
+									"value": "1in",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "page_orientation",
+									"value": "portrait",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "web_layout",
+									"value": "desktop",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Convert to PDF/A",
+			"item": [
+				{
+					"name": "Convert to PDF/A",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "pdfa_out",
+									"type": "text"
+								},
+								{
+									"key": "output_type",
+									"value": "pdf/a-2b",
+									"type": "text"
+								},
+								{
+									"key": "rasterize_if_errors_encountered",
+									"value": "off",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/pdfa",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"pdfa"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Compress PDF",
+			"item": [
+				{
+					"name": "Compress PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/toOptimize.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "compressed_out",
+									"type": "text"
+								},
+								{
+									"key": "compression_level",
+									"value": "medium",
+									"type": "text"
+								},
+								{
+									"key": "profile",
+									"type": "file",
+									"src": [],
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/compressed-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"compressed-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Linearize PDF",
+			"item": [
+				{
+					"name": "Linearize PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/toLinearize.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "linearized_out",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/linearized-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"linearized-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Flatten Transparencies",
+			"item": [
+				{
+					"name": "Flatten Transparencies",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/toFlatten.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "flattened_transparencies_out",
+									"type": "text"
+								},
+								{
+									"key": "quality",
+									"value": "medium",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/flattened-transparencies-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"flattened-transparencies-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Merge PDFs",
+			"item": [
+				{
+					"name": "Merge PDFs",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/merge1.pdf"
+								},
+								{
+									"key": "pages[]",
+									"value": "odd",
+									"type": "text"
+								},
+								{
+									"key": "type[]",
+									"value": "file",
+									"type": "text"
+								},
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/merge2.pdf"
+								},
+								{
+									"key": "pages[]",
+									"value": "1-last",
+									"type": "text"
+								},
+								{
+									"key": "type[]",
+									"value": "file",
+									"type": "text"
+								},
+								{
+									"key": "id[]",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "pages[]",
+									"value": "1-last",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "type[]",
+									"value": "id",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "merged_out",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/merged-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"merged-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Split PDF",
+			"item": [
+				{
+					"name": "Split PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/PDFToBeSplit.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "pages[]",
+									"value": "1-last",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "split_out",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/split-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"split-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PDF to Images",
+			"item": [
+				{
+					"name": "PDF to Images - BMP",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "bmp_out",
+									"type": "text"
+								},
+								{
+									"key": "pages",
+									"value": "1-last",
+									"type": "text"
+								},
+								{
+									"key": "resolution",
+									"value": "300",
+									"type": "text"
+								},
+								{
+									"key": "color_model",
+									"value": "rgb",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/bmp",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"bmp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PDF to Images - GIF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "gif_out",
+									"type": "text"
+								},
+								{
+									"key": "pages",
+									"value": "1-last",
+									"type": "text"
+								},
+								{
+									"key": "resolution",
+									"value": "300",
+									"type": "text"
+								},
+								{
+									"key": "color_model",
+									"value": "rgb",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/gif",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"gif"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PDF to Images - JPG",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "jpg_out",
+									"type": "text"
+								},
+								{
+									"key": "pages",
+									"value": "1-last",
+									"type": "text"
+								},
+								{
+									"key": "resolution",
+									"value": "300",
+									"type": "text"
+								},
+								{
+									"key": "color_model",
+									"value": "rgb",
+									"type": "text"
+								},
+								{
+									"key": "jpeg_quality",
+									"value": "75",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/jpg",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"jpg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PDF to Images - PNG",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "png_out",
+									"type": "text"
+								},
+								{
+									"key": "pages",
+									"value": "1-last",
+									"type": "text"
+								},
+								{
+									"key": "resolution",
+									"value": "300",
+									"type": "text"
+								},
+								{
+									"key": "color_model",
+									"value": "rgb",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/png",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"png"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PDF to Images - TIF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "tif_out",
+									"type": "text"
+								},
+								{
+									"key": "pages",
+									"value": "1-last",
+									"type": "text"
+								},
+								{
+									"key": "resolution",
+									"value": "300",
+									"type": "text"
+								},
+								{
+									"key": "color_model",
+									"value": "rgb",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/tif",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"tif"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Encrypt PDF",
+			"item": [
+				{
+					"name": "Encrypt PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/toEncrypt.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "encrypt_out",
+									"type": "text"
+								},
+								{
+									"key": "new_open_password",
+									"value": "example_pw",
+									"type": "text"
+								},
+								{
+									"key": "current_open_password",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "current_permissions_password",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/encrypted-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"encrypted-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Decrypt PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/toDecrypt.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "encrypt_out",
+									"type": "text"
+								},
+								{
+									"key": "current_open_password",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "current_permissions_password",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/decrypted-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"decrypted-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Restrict PDF",
+			"item": [
+				{
+					"name": "Restrict PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/toRestrict.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "restricted_out",
+									"type": "text"
+								},
+								{
+									"key": "new_permissions_password",
+									"value": "examplepw",
+									"type": "text"
+								},
+								{
+									"key": "restrictions[]",
+									"value": "print_low",
+									"type": "text"
+								},
+								{
+									"key": "restrictions[]",
+									"value": "accessibility_off",
+									"type": "text"
+								},
+								{
+									"key": "restrictions[]",
+									"value": "edit_content",
+									"type": "text"
+								},
+								{
+									"key": "current_permissions_password",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "current_open_password",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/restricted-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"restricted-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unrestrict PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/toUnrestrict.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "restricted_out",
+									"type": "text"
+								},
+								{
+									"key": "current_permissions_password",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "current_open_password",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/unrestricted-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"unrestricted-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ZIP Files",
+			"item": [
+				{
+					"name": "ZIP Files",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/Datalogics.bmp"
+								},
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/ducky.pdf"
+								},
+								{
+									"key": "file",
+									"type": "file",
+									"src": "sample_input/strawberries.jpg"
+								},
+								{
+									"key": "id[]",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "zip_out",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/zip",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"zip"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Retrieve File",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.pdfrest.com/resource/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"pdfrest",
+						"com"
+					],
+					"path": [
+						"resource",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "Api-Key",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
