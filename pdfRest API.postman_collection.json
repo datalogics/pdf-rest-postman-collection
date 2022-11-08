@@ -157,7 +157,7 @@
 								},
 								{
 									"key": "output_type",
-									"value": "pdf/a-2b",
+									"value": "PDF/A-2b",
 									"description": "PDF/A version",
 									"type": "text"
 								},
