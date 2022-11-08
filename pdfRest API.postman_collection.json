@@ -1,0 +1,1297 @@
+{
+	"info": {
+		"_postman_id": "0cfdbc5c-2d1b-46e0-950c-7a463e7fd8b1",
+		"name": "pdfRest API",
+		"description": "pdfRest API Toolkit includes all of the API Tools you'll need to meet your PDF processing requirements, designed and documented by industry experts to make your development work easier than ever.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17528463"
+	},
+	"item": [
+		{
+			"name": "Convert to PDF",
+			"item": [
+				{
+					"name": "Convert to PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/rainbow.tif"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "url",
+									"value": "",
+									"description": "URL to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "pdf_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "compression",
+									"value": "lossy",
+									"description": "(.ps, Office, HTML) Image compression level",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "downsample",
+									"value": "300",
+									"description": "(.ps, Office, HTML) Image downsampling level",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "tagged_pdf",
+									"value": "off",
+									"description": "(Office) Toggle tagged PDF output",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "page_size",
+									"value": "letter",
+									"description": "(HTML) Output page size",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "page_margin",
+									"value": "1in",
+									"description": "(HTML) Output page margin",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "page_orientation",
+									"value": "portrait",
+									"description": "(HTML) Output page orientation",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "web_layout",
+									"value": "desktop",
+									"description": "(HTML) Web layout",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Quickly and easily convert Word, Excel, PowerPoint, BMP, TIF, PNG, and JPG files to standardized PDF documents."
+		},
+		{
+			"name": "Convert to PDF/A",
+			"item": [
+				{
+					"name": "Convert to PDF/A",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "pdfa_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "output_type",
+									"value": "PDF/A-2b",
+									"description": "PDF/A version",
+									"type": "text"
+								},
+								{
+									"key": "rasterize_if_errors_encountered",
+									"value": "off",
+									"description": "Rasterize pages where an error occurs",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/pdfa",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"pdfa"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Convert PDFs to standard PDF/A formats to ensure compliance and support long-term preservation of documents."
+		},
+		{
+			"name": "Compress PDF",
+			"item": [
+				{
+					"name": "Compress PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/toOptimize.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "compressed_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "compression_level",
+									"value": "medium",
+									"description": "Compression level",
+									"type": "text"
+								},
+								{
+									"key": "profile",
+									"description": "Custom optimization profile",
+									"type": "file",
+									"src": [],
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/compressed-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"compressed-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Minimize PDF file sizes while preserving content quality to speed up document transfers and reduce storage costs."
+		},
+		{
+			"name": "Linearize PDF",
+			"item": [
+				{
+					"name": "Linearize PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/toLinearize.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "linearized_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/linearized-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"linearized-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Apply linearization to PDFs to support a quick online viewing experience with Fast Web View."
+		},
+		{
+			"name": "Flatten Transparencies",
+			"item": [
+				{
+					"name": "Flatten Transparencies",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/toFlatten.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "flattened_transparencies_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "quality",
+									"value": "medium",
+									"description": "Resolution quality",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/flattened-transparencies-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"flattened-transparencies-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Flatten all transparent objects in a PDF to increase RIP speed in a prepress workflow and support conversion to other file formats."
+		},
+		{
+			"name": "Merge PDFs",
+			"item": [
+				{
+					"name": "Merge PDFs",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/merge1.pdf"
+								},
+								{
+									"key": "pages[]",
+									"value": "odd",
+									"description": "Pages to use from this document",
+									"type": "text"
+								},
+								{
+									"key": "type[]",
+									"value": "file",
+									"description": "file or id",
+									"type": "text"
+								},
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/merge2.pdf"
+								},
+								{
+									"key": "pages[]",
+									"value": "1-last",
+									"description": "Pages to use from this document",
+									"type": "text"
+								},
+								{
+									"key": "type[]",
+									"value": "file",
+									"description": "file or id",
+									"type": "text"
+								},
+								{
+									"key": "id[]",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "pages[]",
+									"value": "1-last",
+									"description": "Pages to use from this document",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "type[]",
+									"value": "id",
+									"description": "file or id",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "merged_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/merged-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"merged-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Combine multiple PDF documents or pages into one consolidated PDF."
+		},
+		{
+			"name": "Split PDF",
+			"item": [
+				{
+					"name": "Split PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/PDFToBeSplit.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "pages[]",
+									"value": "even",
+									"description": "Pages from the input document that will comprise a new output document.",
+									"type": "text"
+								},
+                {
+									"key": "pages[]",
+									"value": "odd",
+									"description": "Pages from the input document that will comprise a new output document.",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "split_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/split-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"split-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Split a single PDF document into one or more PDF documents with exactly the pages you need."
+		},
+		{
+			"name": "PDF to Images",
+			"item": [
+				{
+					"name": "PDF to Images - BMP",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "bmp_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "pages",
+									"value": "1-last",
+									"description": "Pages to convert",
+									"type": "text"
+								},
+								{
+									"key": "resolution",
+									"value": "300",
+									"description": "Image resolution",
+									"type": "text"
+								},
+								{
+									"key": "color_model",
+									"value": "rgb",
+									"description": "Color model",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/bmp",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"bmp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PDF to Images - GIF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "gif_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "pages",
+									"value": "1-last",
+									"description": "Pages to convert",
+									"type": "text"
+								},
+								{
+									"key": "resolution",
+									"value": "300",
+									"description": "Image resolution",
+									"type": "text"
+								},
+								{
+									"key": "color_model",
+									"value": "rgb",
+									"description": "Color model",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/gif",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"gif"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PDF to Images - JPG",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "jpg_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "pages",
+									"value": "1-last",
+									"description": "Pages to convert",
+									"type": "text"
+								},
+								{
+									"key": "resolution",
+									"value": "300",
+									"description": "Image resolution",
+									"type": "text"
+								},
+								{
+									"key": "color_model",
+									"value": "rgb",
+									"description": "Color model",
+									"type": "text"
+								},
+								{
+									"key": "jpeg_quality",
+									"value": "75",
+									"description": "JPEG quality",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/jpg",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"jpg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PDF to Images - PNG",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "png_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "pages",
+									"value": "1-last",
+									"description": "Pages to convert",
+									"type": "text"
+								},
+								{
+									"key": "resolution",
+									"value": "300",
+									"description": "Image resolution",
+									"type": "text"
+								},
+								{
+									"key": "color_model",
+									"value": "rgb",
+									"description": "Color model",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/png",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"png"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PDF to Images - TIF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/ducky.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "tif_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "pages",
+									"value": "1-last",
+									"description": "Pages to convert",
+									"type": "text"
+								},
+								{
+									"key": "resolution",
+									"value": "300",
+									"description": "Image resolution",
+									"type": "text"
+								},
+								{
+									"key": "color_model",
+									"value": "rgb",
+									"description": "Color model",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/tif",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"tif"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Convert PDFs to JPGs, BMPs, PNGs, GIFs, and TIFs, accurately preserving color fidelity."
+		},
+		{
+			"name": "Encrypt PDF",
+			"item": [
+				{
+					"name": "Encrypt PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/toEncrypt.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "encrypt_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "new_open_password",
+									"value": "example_pw",
+									"description": "Open password to add",
+									"type": "text"
+								},
+								{
+									"key": "current_open_password",
+									"value": "",
+									"description": "Open password already on the input document",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "current_permissions_password",
+									"value": "",
+									"description": "Permissions password on the input document",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/encrypted-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"encrypted-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Decrypt PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/toDecrypt.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "decrypt_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "current_open_password",
+									"value": "password",
+									"description": "Open password on the input document",
+									"type": "text"
+								},
+								{
+									"key": "current_permissions_password",
+									"value": "",
+									"description": "Permissions password on the input document",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/decrypted-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"decrypted-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Secure PDFs with impenetrable encryption and require a password for viewers to open encrypted documents, or remove encryption from documents."
+		},
+		{
+			"name": "Restrict PDF",
+			"item": [
+				{
+					"name": "Restrict PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/toRestrict.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "restrict_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "new_permissions_password",
+									"value": "examplepw",
+									"description": "The new permissions password to add",
+									"type": "text"
+								},
+								{
+									"key": "restrictions[]",
+									"value": "print_low",
+									"description": "A restriction to apply",
+									"type": "text"
+								},
+								{
+									"key": "restrictions[]",
+									"value": "accessibility_off",
+									"description": "A restriction to apply",
+									"type": "text"
+								},
+								{
+									"key": "restrictions[]",
+									"value": "edit_content",
+									"description": "A restriction to apply",
+									"type": "text"
+								},
+								{
+									"key": "current_permissions_password",
+									"value": "",
+									"description": "Permissions password already on the input document",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "current_open_password",
+									"value": "",
+									"description": "Open password to keep on the document",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/restricted-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"restricted-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unrestrict PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/toUnrestrict.pdf"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "unrestrict_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "current_permissions_password",
+									"value": "password",
+									"description": "Permissions password on the input document",
+									"type": "text"
+								},
+								{
+									"key": "current_open_password",
+									"value": "",
+									"description": "Open password to keep on the document",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/unrestricted-pdf",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"unrestricted-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Set restrictions on a PDF to limit the ways in which viewers can interact with the document, such as printing, editing, or extracting text and images. Or, remove security restrictions altogether."
+		},
+		{
+			"name": "ZIP Files",
+			"item": [
+				{
+					"name": "ZIP Files",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "A file to be zipped",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/Datalogics.bmp"
+								},
+								{
+									"key": "file",
+									"description": "A file to be zipped",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/ducky.pdf"
+								},
+								{
+									"key": "file",
+									"description": "A file to be zipped",
+									"type": "file",
+									"src": "pdfrest-api-sample-input/strawberries.jpg"
+								},
+								{
+									"key": "id[]",
+									"value": "",
+									"description": "Resource ID of a file to be zipped",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "zip_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/zip",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"zip"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Zip any number of uploaded or processed files across multiple API calls into a single archived Zip file for convenient downloads."
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "Api-Key",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
