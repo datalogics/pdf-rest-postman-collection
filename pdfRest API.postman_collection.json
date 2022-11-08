@@ -506,8 +506,14 @@
 								},
 								{
 									"key": "pages[]",
-									"value": "1-last",
-									"description": "Pages to use from this document",
+									"value": "even",
+									"description": "Pages from the input document that will comprise a new output document.",
+									"type": "text"
+								},
+                {
+									"key": "pages[]",
+									"value": "odd",
+									"description": "Pages from the input document that will comprise a new output document.",
 									"type": "text"
 								},
 								{
