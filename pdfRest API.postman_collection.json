@@ -990,7 +990,7 @@
 								},
 								{
 									"key": "output",
-									"value": "encrypt_out",
+									"value": "decrypt_out",
 									"description": "Output file name (no ext.)",
 									"type": "text"
 								},
@@ -1059,7 +1059,7 @@
 								},
 								{
 									"key": "output",
-									"value": "restricted_out",
+									"value": "restrict_out",
 									"description": "Output file name (no ext.)",
 									"type": "text"
 								},
@@ -1147,7 +1147,7 @@
 								},
 								{
 									"key": "output",
-									"value": "restricted_out",
+									"value": "unrestrict_out",
 									"description": "Output file name (no ext.)",
 									"type": "text"
 								},
