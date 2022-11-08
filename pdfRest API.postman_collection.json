@@ -1251,34 +1251,6 @@
 				}
 			],
 			"description": "Zip any number of uploaded or processed files across multiple API calls into a single archived Zip file for convenient downloads."
-		},
-		{
-			"name": "Retrieve File",
-			"request": {
-				"method": "GET",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
-						"type": "text"
-					}
-				],
-				"url": {
-					"raw": "https://api.pdfrest.com/resource/",
-					"protocol": "https",
-					"host": [
-						"api",
-						"pdfrest",
-						"com"
-					],
-					"path": [
-						"resource",
-						""
-					]
-				},
-				"description": "GET your file(s) by appending the resource ID to the URL (following `resource/`)."
-			},
-			"response": []
 		}
 	],
 	"auth": {
