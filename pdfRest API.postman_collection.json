@@ -399,7 +399,7 @@
 								},
 								{
 									"key": "pages[]",
-									"value": "odd",
+									"value": "1-last",
 									"description": "Pages to use from this document",
 									"type": "text"
 								},
