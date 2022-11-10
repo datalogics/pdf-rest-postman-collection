@@ -28,7 +28,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/rainbow.tif"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -140,7 +140,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/ducky.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -208,7 +208,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/toOptimize.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -277,7 +277,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/toLinearize.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -333,7 +333,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/toFlatten.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -395,7 +395,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/merge1.pdf"
+									"src": []
 								},
 								{
 									"key": "pages[]",
@@ -413,7 +413,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/merge2.pdf"
+									"src": []
 								},
 								{
 									"key": "pages[]",
@@ -495,7 +495,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/PDFToBeSplit.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -563,7 +563,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/ducky.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -631,7 +631,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/ducky.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -699,7 +699,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/ducky.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -773,7 +773,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/ducky.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -841,7 +841,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/ducky.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -915,7 +915,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/toEncrypt.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -985,7 +985,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/toDecrypt.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -1054,7 +1054,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/toRestrict.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -1142,7 +1142,7 @@
 									"key": "file",
 									"description": "File to be processed",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/toUnrestrict.pdf"
+									"src": []
 								},
 								{
 									"key": "id",
@@ -1211,19 +1211,19 @@
 									"key": "file",
 									"description": "A file to be zipped",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/Datalogics.bmp"
+									"src": []
 								},
 								{
 									"key": "file",
 									"description": "A file to be zipped",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/ducky.pdf"
+									"src": []
 								},
 								{
 									"key": "file",
 									"description": "A file to be zipped",
 									"type": "file",
-									"src": "pdfrest-api-sample-input/strawberries.jpg"
+									"src": []
 								},
 								{
 									"key": "id[]",
