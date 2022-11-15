@@ -14,7 +14,17 @@ __[PDF to Images](https://pdfrest.com/apitoolkit/pdf-to-images/)__ | __[Convert 
 
 <br>
 
-## How to get started with the pdfRest Postman Collection:
+## What is Postman?
+Postman is an application that makes it easy to test APIs using an intuitive graphical user interface.  Configure your endpoints, parameters, input files, and other settings by clicking and typing in the interface, and send requests with the click of a button.  Responses appear back in the interface as well, making for a complete, end-to-end, no-code API testing experience.
+
+<br>
+
+## What is a Postman Collection?
+Postman supports an easy way to preload API request configurations with "Collections" so you can start sending API Calls without the hastle of setting them up from scratch or referring back to documentation to make sure you're including all the right parameters.  pdfRest has created a Postman Collection, which is contained in a single JSON file named `"pdfRest API.postman_collection.json"`.  Simply import this into Postman, and you're a few clicks away from testing any of the API Tools in the pdfRest Toolkit.
+
+<br>
+
+## Getting Started with the pdfRest Postman Collection
 
 1. [Download the contents of this repository](https://github.com/datalogics/pdf-rest-postman-collection/archive/refs/heads/develop.zip) and unzip.
 2. Import `"pdfRest API.postman_collection.json"` into your Postman Workspace as a collection.
@@ -31,7 +41,7 @@ After you've successfully sent an API Call using these examples in Postman, take
 <br>
 
 ## API Code Samples
-Easily integrate pdfRest with your application by starting from functional [code samples](https://github.com/datalogics/pdf-rest-api-samples) with Python, PHP, JavaScript (Node), and cURL.
+Easily integrate pdfRest with your application by starting from functional [Code Samples](https://github.com/datalogics/pdf-rest-api-samples) with Python, PHP, JavaScript (Node), and cURL.
 
 
 <br>
