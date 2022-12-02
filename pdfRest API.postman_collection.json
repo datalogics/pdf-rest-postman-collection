@@ -73,12 +73,12 @@
 							"raw": "https://posterelite.pdfrest.com/insert-image",
 							"protocol": "https",
 							"host": [
-								"api",
+								"posterelite",
 								"pdfrest",
 								"com"
 							],
 							"path": [
-								"pdf"
+								"insert-image"
 							]
 						}
 					},
