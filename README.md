@@ -20,7 +20,7 @@ __[PDF to Images](https://pdfrest.com/apitoolkit/pdf-to-images/)__ | __[Convert 
 <br>
 
 ## What is a Postman Collection?
-Postman supports an easy way to preload API request configurations with "Collections" so you can start sending API Calls without the hastle of setting them up from scratch or referring back to documentation to make sure you're including all the right parameters.  pdfRest has created a Postman Collection, which is contained in a single JSON file named `"pdfRest API.postman_collection.json"`.  Simply import this into Postman, and you're a few clicks away from testing any of the API Tools in the pdfRest Toolkit.
+Postman supports an easy way to preload API request configurations with "Collections" so you can start sending API Calls without the hassle of setting them up from scratch or referring back to documentation to make sure you're including all the right parameters.  pdfRest has created a Postman Collection, which is contained in a single JSON file named `"pdfRest API.postman_collection.json"`.  Simply import this into Postman, and you're a few clicks away from testing any of the API Tools in the pdfRest Toolkit.
 
 <br>
 
