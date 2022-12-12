@@ -1257,6 +1257,62 @@
 				}
 			],
 			"description": "Zip any number of uploaded or processed files across multiple API calls into a single archived Zip file for convenient downloads."
+		},
+		{
+			"name": "Query PDF",
+			"item": [
+				{
+					"name": "Query PDF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "Resource ID to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "queries",
+									"value": "title,page_count,doc_language,tagged,image_only,author,creation_date,modified_date,producer",
+									"description": "Informaton to request about the input file",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/pdf-info",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"pdf-info"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Quickly and easily convert Word, Excel, PowerPoint, BMP, TIF, PNG, and JPG files to standardized PDF documents."
 		}
 	],
 	"auth": {
