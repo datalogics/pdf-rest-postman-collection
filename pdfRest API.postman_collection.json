@@ -32,8 +32,8 @@
 								},
 								{
 									"key": "id",
-									"value": "",
-									"description": "Resource ID to be processed",
+									"value": "xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+									"description": "Resource ID of a PDF to be processed",
 									"type": "text",
 									"disabled": true
 								},
@@ -42,6 +42,13 @@
 									"description": "JPEG image file to be processed",
 									"type": "file",
 									"src": []
+								},
+								{
+									"key": "image_id",
+									"value": "xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+									"description": "Resource ID of a JPEG to be processed",
+									"type": "text",
+									"disabled": true
 								},
 								{
 									"key": "output",
