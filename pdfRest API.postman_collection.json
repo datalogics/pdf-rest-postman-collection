@@ -73,6 +73,13 @@
 									"value": "1",
 									"description": "the page on which to add the image",
 									"type": "text"
+								},
+                {
+									"key": "resolution",
+									"value": "300",
+									"description": "[OPTIONAL] the resolution (DPI) of the JPEG",
+									"type": "text",
+									"disabled": true
 								}
 							]
 						},
