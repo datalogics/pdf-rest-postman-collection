@@ -14,13 +14,6 @@
 					"name": "Convert to PDF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -126,13 +119,6 @@
 					"name": "Convert to PDF/A",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -194,13 +180,6 @@
 					"name": "Compress PDF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -263,13 +242,6 @@
 					"name": "Linearize PDF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -319,13 +291,6 @@
 					"name": "Flatten Transparencies",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -381,13 +346,6 @@
 					"name": "Merge PDFs",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -481,13 +439,6 @@
 					"name": "Split PDF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -549,13 +500,6 @@
 					"name": "PDF to Images - BMP",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -617,13 +561,6 @@
 					"name": "PDF to Images - GIF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -685,13 +622,6 @@
 					"name": "PDF to Images - JPG",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -759,13 +689,6 @@
 					"name": "PDF to Images - PNG",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -827,13 +750,6 @@
 					"name": "PDF to Images - TIF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -901,13 +817,6 @@
 					"name": "Encrypt PDF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -971,13 +880,6 @@
 					"name": "Decrypt PDF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -1040,13 +942,6 @@
 					"name": "Restrict PDF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -1128,13 +1023,6 @@
 					"name": "Unrestrict PDF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -1197,13 +1085,6 @@
 					"name": "ZIP Files",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -1265,13 +1146,6 @@
 					"name": "Query PDF",
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
@@ -1336,7 +1210,7 @@
 			"script": {
 				"type": "text/javascript",
 				"exec": [
-					""
+					" pm.request.headers.add({key: 'wsn', value: 'Postman' })"
 				]
 			}
 		},
