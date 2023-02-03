@@ -36,7 +36,7 @@ Postman supports an easy way to preload API request configurations with "Collect
 <br>
 
 Click below for a video walk-through:
-<a href='https://www.youtube.com/watch?v=YLSFssVteBs' target='_blank'>![pdfRest Postman Collection](https://cms.pdfrest.com/content/images/size/w1000/2023/02/Screen-Shot-2023-02-03-at-10.06.37-AM.png)]</a>
+<a href='https://www.youtube.com/watch?v=YLSFssVteBs' target='_blank'>![pdfRest Postman Collection](https://cms.pdfrest.com/content/images/size/w1000/2023/02/Screen-Shot-2023-02-03-at-10.06.37-AM.png)</a>
 
 <br>
 
