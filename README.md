@@ -1,5 +1,5 @@
 ![pdfRest](https://cms.pdfrest.com/content/images/2022/11/pdfRest_logo_tag_750_275_light_bg.png)
-
+<base target="_blank">
 
 [pdfRest.com](https://pdfrest.com )&nbsp;|&nbsp; [Get Started](https://pdfrest.com/getstarted) &nbsp;|&nbsp; [Explore the Toolkit](https://pdfrest.com/apitoolkit) &nbsp;|&nbsp; [Solutions](https://pdfrest.com/solutions/) &nbsp;|&nbsp; [Pricing](https://pdfrest.com/pricing) &nbsp;|&nbsp; [Documentation](https://pdfrest.com/documentation.html) &nbsp;|&nbsp; [Support](https://pdfrest.com/support)
 
@@ -32,6 +32,11 @@ Postman supports an easy way to preload API request configurations with "Collect
 4. In the **Value** field, replace `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` with the value of your API key, and click the 'Save' button.
 5. Choose any request in the pdfRest collection and go to the request's **Body** tab.
 6. Next to the `file` key, click **Select Files** to upload an input file for your request.
+
+<br>
+
+Click below for a video walk-through:
+[![pdfRest Postman Collection](https://cms.pdfrest.com/content/images/size/w1000/2023/02/Screen-Shot-2023-02-03-at-10.06.37-AM.png)](https://www.youtube.com/watch?v=YLSFssVteBs)
 
 <br>
 
