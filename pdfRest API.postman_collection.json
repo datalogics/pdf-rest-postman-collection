@@ -1187,6 +1187,86 @@
 				}
 			],
 			"description": "Quickly and easily convert Word, Excel, PowerPoint, BMP, TIF, PNG, and JPG files to standardized PDF documents."
+		},
+		{
+			"name": "Add to PDF",
+			"item": [
+				{
+					"name": "Add image",
+					"request": {
+						"method": "POST",
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"description": "File to be processed",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "id",
+									"value": "xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+									"description": "Resource ID of a PDF to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "image_file",
+									"description": "JPEG image file to be processed",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "image_id",
+									"value": "xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+									"description": "Resource ID of a JPEG to be processed",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "output",
+									"value": "pdf_out",
+									"description": "Output file name (no ext.)",
+									"type": "text"
+								},
+								{
+									"key": "x",
+									"value": "0",
+									"description": "x position of image in PDF units (1 in. = 72 PDF units)",
+									"type": "text"
+								},
+								{
+									"key": "y",
+									"value": "0",
+									"description": "y position of image in PDF units (1 in. = 72 PDF units)",
+									"type": "text"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"description": "The page on which to add the image",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.pdfrest.com/pdf-with-added-image",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pdfrest",
+								"com"
+							],
+							"path": [
+								"pdf-with-added-image"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Add a JPG, PNG, TIF, or GIF into PDF."
 		}
 	],
 	"auth": {
