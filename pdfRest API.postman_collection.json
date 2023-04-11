@@ -52,7 +52,7 @@
 								{
 									"key": "output",
 									"value": "pdf_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -131,7 +131,7 @@
 								{
 									"key": "output",
 									"value": "pdf_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -274,7 +274,7 @@
 								{
 									"key": "output",
 									"value": "pdf_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -331,7 +331,7 @@
 								{
 									"key": "output",
 									"value": "pdfa_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -393,7 +393,7 @@
 								{
 									"key": "output",
 									"value": "compressed_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -456,7 +456,7 @@
 								{
 									"key": "output",
 									"value": "linearized_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								}
 							]
@@ -506,7 +506,7 @@
 								{
 									"key": "output",
 									"value": "flattened_transparencies_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -606,7 +606,7 @@
 								{
 									"key": "output",
 									"value": "merged_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								}
 							]
@@ -674,7 +674,7 @@
 								{
 									"key": "output",
 									"value": "split_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								}
 							]
@@ -724,7 +724,7 @@
 								{
 									"key": "output",
 									"value": "split_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								}
 							]
@@ -774,7 +774,7 @@
 								{
 									"key": "output",
 									"value": "bmp_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -836,7 +836,7 @@
 								{
 									"key": "output",
 									"value": "gif_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -898,7 +898,7 @@
 								{
 									"key": "output",
 									"value": "jpg_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -966,7 +966,7 @@
 								{
 									"key": "output",
 									"value": "png_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -1028,7 +1028,7 @@
 								{
 									"key": "output",
 									"value": "tif_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -1096,7 +1096,7 @@
 								{
 									"key": "output",
 									"value": "encrypt_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -1160,7 +1160,7 @@
 								{
 									"key": "output",
 									"value": "decrypt_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -1223,7 +1223,7 @@
 								{
 									"key": "output",
 									"value": "restrict_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -1305,7 +1305,7 @@
 								{
 									"key": "output",
 									"value": "unrestrict_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
@@ -1380,7 +1380,7 @@
 								{
 									"key": "output",
 									"value": "zip_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								}
 							]
@@ -1493,7 +1493,7 @@
 								{
 									"key": "output",
 									"value": "pdf_out",
-									"description": "Output file name (no ext.)",
+									"description": "Output file name (no file extension)",
 									"type": "text"
 								},
 								{
