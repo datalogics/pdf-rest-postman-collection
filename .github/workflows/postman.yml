@@ -16,4 +16,4 @@ jobs:
       uses: jneate/postman-collection-action@v1
       with:
         postmanApiKey: ${{ secrets.POSTMAN_API_KEY }}
-        postmanWorkspaceId: ${{ env.POSTMAN_WORKSPACE_ID }}
+        postmanWorkspaceId: ${{ vars.POSTMAN_WORKSPACE_ID }}
