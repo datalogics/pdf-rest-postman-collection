@@ -1,17 +1,15 @@
 name: Update Postman Workspace
 
 on:
-  pull_request:
-    types:
-      - closed
+  push:
+    branches: [ develop ]
 
 jobs:
-  if_merged:
-    if: github.event.pull_request.merged == true
+  update-postman-collection:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Sync Postman Collections
       uses: jneate/postman-collection-action@v1
       with:
