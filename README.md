@@ -24,18 +24,17 @@ __[Watermark PDF](https://pdfrest.com/apitoolkit/watermark-pdf/)__ |__[Flatten T
 <br>
 
 ## What is a Postman Collection?
-Postman supports an easy way to preload API request configurations with "Collections" so you can start sending API Calls without the hassle of setting them up from scratch or referring back to documentation to make sure you're including all the right parameters.  pdfRest has created a Postman Collection, which is contained in a single JSON file named `"pdfRest API.postman_collection.json"`.  Simply import this into Postman, and you're a few clicks away from testing any of the API Tools in the pdfRest Toolkit.
+Postman supports an easy way to preload API request configurations with "Collections" so you can start sending API Calls without the hassle of setting them up from scratch or referring back to documentation to make sure you're including all the right parameters.  pdfRest has created a Postman Collection, available in the Postman API Network.
 
 <br>
 
 ## Getting Started with the pdfRest Postman Collection
 
-1. [Download the contents of this repository](https://github.com/datalogics/pdf-rest-postman-collection/archive/refs/heads/develop.zip) and unzip.
-2. Import `"pdfRest API.postman_collection.json"` into your Postman Workspace as a collection.
-3. To add your API key, go to **Collections** -> **pdfRest API** -> **Authorization**. The authorization **Type** should already be set to *Api Key*, and the **Key** field should read *Api-Key*.
-4. In the **Value** field, replace `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` with the value of your API key, and click the 'Save' button.
-5. Choose any request in the pdfRest collection and go to the request's **Body** tab.
-6. Next to the `file` key, click **Select Files** to upload an input file for your request.
+1. Find pdfRest in the Postman API Network here: https://www.postman.com/pdfrest/ 
+2. To add your API key, go to **Collections** -> **pdfRest API** -> **Authorization**. The authorization **Type** should already be set to *Api Key*, and the **Key** field should read *Api-Key*.
+3. In the **Value** field, replace `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` with the value of your API key, and click the 'Save' button.
+4. Choose any request in the pdfRest collection and go to the request's **Body** tab.
+5. Next to the `file` key, click **Select Files** to upload an input file for your request.
 
 <br>
 
@@ -50,7 +49,7 @@ After you've successfully sent an API Call using these examples in Postman, take
 <br>
 
 ## API Code Samples
-Easily integrate pdfRest with your application by starting from functional [Code Samples](https://github.com/datalogics/pdf-rest-api-samples) with Python, PHP, JavaScript (Node), and cURL.
+Easily integrate pdfRest with your application by starting from functional [Code Samples](https://github.com/datalogics/pdf-rest-api-samples) with Python, PHP, JavaScript, and cURL.
 
 
 <br>
