@@ -1,20 +1,23 @@
 ![pdfRest](https://cms.pdfrest.com/content/images/2022/11/pdfRest_logo_tag_750_275_light_bg.png)
 
-
-[pdfRest.com](https://pdfrest.com )&nbsp;|&nbsp; [Get Started](https://pdfrest.com/getstarted) &nbsp;|&nbsp; [Explore the Toolkit](https://pdfrest.com/apitoolkit) &nbsp;|&nbsp; [Solutions](https://pdfrest.com/solutions/) &nbsp;|&nbsp; [Pricing](https://pdfrest.com/pricing) &nbsp;|&nbsp; [Documentation](https://pdfrest.com/documentation.html) &nbsp;|&nbsp; [Support](https://pdfrest.com/support)
+[pdfRest.com](https://pdfrest.com)&nbsp;|&nbsp; [Get Started](https://pdfrest.com/getstarted) &nbsp;|&nbsp; [API Lab](https://pdfrest.com/apilab)&nbsp;|&nbsp; [Explore the Toolkit](https://pdfrest.com/apitoolkit) &nbsp;|&nbsp; [Solutions](https://pdfrest.com/solutions/) &nbsp;|&nbsp; [Pricing](https://pdfrest.com/pricing) &nbsp;|&nbsp; [Documentation](https://pdfrest.com/documentation.html) &nbsp;|&nbsp; [Support](https://pdfrest.com/support)
 
 <br>
 
 ## pdfRest API Toolkit
-pdfRest is a REST API Toolkit for developers with all of the API Tools you'll need to power your PDF processing requirements, designed and documented by PDF experts to make your development work easier than ever. Rapidly integrate PDF capabilities into web applications in minutes, not days. 
 
+pdfRest is a REST API Toolkit for developers with all of the API Tools you'll need to power your PDF processing requirements, designed and documented by PDF experts to make your development work easier than ever. Rapidly integrate PDF capabilities into web applications in minutes, not days.
 
-|[Compress PDF](https://pdfrest.com/apitoolkit/compress-pdf/) | [Convert to PDF](https://pdfrest.com/apitoolkit/convert-to-pdf/) | [Merge PDFs](https://pdfrest.com/apitoolkit/merge-pdfs/) | [Split PDF](https://pdfrest.com/apitoolkit/split-pdf/)
-|:-|:-|:-|:-| 
-__[Encrypt PDF](https://pdfrest.com/apitoolkit/encrypt-pdf/)__ | __[Restrict PDF](https://pdfrest.com/apitoolkit/restrict-pdf/)__ | __[PDF to Images](https://pdfrest.com/apitoolkit/pdf-to-images/)__ | __[Convert to PDF/A](https://pdfrest.com/apitoolkit/convert-to-pdfa/)__ 
-__[Decrypt PDF](https://pdfrest.com/apitoolkit/encrypt-pdf/)__ | __[Unrestrict PDF](https://pdfrest.com/apitoolkit/restrict-pdf/)__ | __[Add to PDF](https://pdfrest.com/apitoolkit/add-to-pdf/)__ | __[Query PDF](https://pdfrest.com/apitoolkit/query-pdf/)__ 
-__[Watermark PDF](https://pdfrest.com/apitoolkit/watermark-pdf/)__ |__[Flatten Transparencies](https://pdfrest.com/apitoolkit/flatten-transparencies/)__ | __[Linearize PDF](https://pdfrest.com/apitoolkit/linearize-pdf/)__ | __[Zip Files](https://pdfrest.com/apitoolkit/zip-files/)__ 
+| [Compress PDF](https://pdfrest.com/apitoolkit/compress-pdf/)       | [Convert to PDF](https://pdfrest.com/apitoolkit/convert-to-pdf/)                     | **[Convert to PDF/A](https://pdfrest.com/apitoolkit/convert-to-pdfa/)**            |      [Convert to PDF/X](https://pdfrest.com/apitoolkit/convert-to-pdfx/)             |
+| :----------------------------------------------------------------- | :----------------------------------------------------------------------------------- | :----------------------------------------------------------------- | :---------------------------------------------------------------------- |
+| **[Encrypt PDF](https://pdfrest.com/apitoolkit/encrypt-pdf/)**     | **[Restrict PDF](https://pdfrest.com/apitoolkit/restrict-pdf/)**                     | **[Merge PDFs](https://pdfrest.com/apitoolkit/merge-pdfs/)**       | **[Split PDF](https://pdfrest.com/apitoolkit/split-pdf/)** | 
+| **[Decrypt PDF](https://pdfrest.com/apitoolkit/encrypt-pdf/)**     | **[Unrestrict PDF](https://pdfrest.com/apitoolkit/restrict-pdf/)**                   | **[Add to PDF](https://pdfrest.com/apitoolkit/add-to-pdf/)**       | **[PDF to Images](https://pdfrest.com/apitoolkit/pdf-to-images/)**         |
+| **[Watermark PDF](https://pdfrest.com/apitoolkit/watermark-pdf/)** | **[Flatten Transparencies](https://pdfrest.com/apitoolkit/flatten-transparencies/)** | **[Flatten Annotations](https://pdfrest.com/apitoolkit/flatten-annotations/)** | **[Flatten Layers](https://pdfrest.com/apitoolkit/flatten-layers/)** |
+**[Query PDF](https://pdfrest.com/apitoolkit/query-pdf/)**           | **[Linearize PDF](https://pdfrest.com/apitoolkit/linearize-pdf/)**   | **[Upload Files](https://pdfrest.com/apitoolkit/upload-files/)**                   | **[Zip Files](https://pdfrest.com/apitoolkit/zip-files/)**
 
+<br>
+
+Get started quickly with our [API Lab](https://pdfrest.com/apilab/) web app, trust in high quality Adobe® technology, and keep costs to a minimum with the best fit plan for every business application (including a generous free plan).
 
 <br>
 
