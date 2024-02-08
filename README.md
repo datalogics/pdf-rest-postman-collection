@@ -1,6 +1,6 @@
 ![pdfRest](https://cms.pdfrest.com/content/images/2022/11/pdfRest_logo_tag_750_275_light_bg.png)
 
-[pdfRest.com](https://pdfrest.com)&nbsp;|&nbsp; [Get Started](https://pdfrest.com/getstarted) &nbsp;|&nbsp; [API Lab](https://pdfrest.com/apilab)&nbsp;|&nbsp; [Explore the Toolkit](https://pdfrest.com/apitoolkit) &nbsp;|&nbsp; [Solutions](https://pdfrest.com/solutions/) &nbsp;|&nbsp; [Pricing](https://pdfrest.com/pricing) &nbsp;|&nbsp; [Documentation](https://pdfrest.com/documentation.html) &nbsp;|&nbsp; [Support](https://pdfrest.com/support)
+[pdfRest.com](https://pdfrest.com/)&nbsp;|&nbsp; [Get Started](https://pdfrest.com/getstarted/) &nbsp;|&nbsp; [API Lab](https://pdfrest.com/apilab/)&nbsp;|&nbsp; [Explore the Toolkit](https://pdfrest.com/apitools) &nbsp;|&nbsp; [Solutions](https://pdfrest.com/learning/solutions/) &nbsp;|&nbsp; [Pricing](https://pdfrest.com/pricing/) &nbsp;|&nbsp; [Documentation](https://pdfrest.com/documentation/) &nbsp;|&nbsp; [Support](https://pdfrest.com/support/)
 
 <br>
 
@@ -8,14 +8,14 @@
 
 pdfRest is a REST API Toolkit for developers with all of the API Tools you'll need to power your PDF processing requirements, designed and documented by PDF experts to make your development work easier than ever. Rapidly integrate PDF capabilities into web applications in minutes, not days.
 
-| [Compress PDF](https://pdfrest.com/apitoolkit/compress-pdf/)       | [Convert to PDF](https://pdfrest.com/apitoolkit/convert-to-pdf/)                     | **[Convert to PDF/A](https://pdfrest.com/apitoolkit/convert-to-pdfa/)**            |      [Convert to PDF/X](https://pdfrest.com/apitoolkit/convert-to-pdfx/)             |
+| [Compress PDF](https://pdfrest.com/apitools/compress-pdf/)       | [Convert to PDF](https://pdfrest.com/apitools/convert-to-pdf/)                     | **[Convert to PDF/A](https://pdfrest.com/apitools/convert-to-pdfa/)**            |      [Convert to PDF/X](https://pdfrest.com/apitools/convert-to-pdfx/)             |
 | :----------------------------------------------------------------- | :----------------------------------------------------------------------------------- | :----------------------------------------------------------------- | :---------------------------------------------------------------------- |
-| **[Encrypt PDF](https://pdfrest.com/apitoolkit/encrypt-pdf/)**     | **[Restrict PDF](https://pdfrest.com/apitoolkit/restrict-pdf/)**                     | **[Merge PDFs](https://pdfrest.com/apitoolkit/merge-pdfs/)**       | **[Split PDF](https://pdfrest.com/apitoolkit/split-pdf/)** | 
-| **[Decrypt PDF](https://pdfrest.com/apitoolkit/encrypt-pdf/)**     | **[Unrestrict PDF](https://pdfrest.com/apitoolkit/restrict-pdf/)**                   | **[Add to PDF](https://pdfrest.com/apitoolkit/add-to-pdf/)**       | **[PDF to Images](https://pdfrest.com/apitoolkit/pdf-to-images/)**         |
-| **[Watermark PDF](https://pdfrest.com/apitoolkit/watermark-pdf/)** | **[Flatten Transparencies](https://pdfrest.com/apitoolkit/flatten-transparencies/)** | **[Flatten Annotations](https://pdfrest.com/apitoolkit/flatten-annotations/)** | **[Flatten Layers](https://pdfrest.com/apitoolkit/flatten-layers/)** |
-**[Query PDF](https://pdfrest.com/apitoolkit/query-pdf/)**           | **[Linearize PDF](https://pdfrest.com/apitoolkit/linearize-pdf/)**   | **[Upload Files](https://pdfrest.com/apitoolkit/upload-files/)**                   | **[Zip Files](https://pdfrest.com/apitoolkit/zip-files/)** |
-| **[Flatten Forms](https://pdfrest.com/apitoolkit/flatten-forms/)** | **[Import Form Data](https://pdfrest.com/apitoolkit/import-form-data/)** | **[Export Form Data](https://pdfrest.com/apitoolkit/export-form-data/)** | **[Extract Text](https://pdfrest.com/apitoolkit/extract-text/)** |
-| **[PDF to Word](https://pdfrest.com/apitoolkit/pdf-to-word/)** | **[PDF to Excel](https://pdfrest.com/apitoolkit/pdf-to-excel/)** | **[PDF to PowerPoint](https://pdfrest.com/apitoolkit/pdf-to-powerpoint/)** | | 
+| **[Encrypt PDF](https://pdfrest.com/apitools/encrypt-pdf/)**     | **[Restrict PDF](https://pdfrest.com/apitools/restrict-pdf/)**                     | **[Merge PDFs](https://pdfrest.com/apitools/merge-pdfs/)**       | **[Split PDF](https://pdfrest.com/apitools/split-pdf/)** | 
+| **[Decrypt PDF](https://pdfrest.com/apitools/encrypt-pdf/)**     | **[Unrestrict PDF](https://pdfrest.com/apitools/restrict-pdf/)**                   | **[Add to PDF](https://pdfrest.com/apitools/add-to-pdf/)**       | **[PDF to Images](https://pdfrest.com/apitools/pdf-to-images/)**         |
+| **[Watermark PDF](https://pdfrest.com/apitools/watermark-pdf/)** | **[Flatten Transparencies](https://pdfrest.com/apitools/flatten-transparencies/)** | **[Flatten Annotations](https://pdfrest.com/apitools/flatten-annotations/)** | **[Flatten Layers](https://pdfrest.com/apitools/flatten-layers/)** |
+**[Query PDF](https://pdfrest.com/apitools/query-pdf/)**           | **[Linearize PDF](https://pdfrest.com/apitools/linearize-pdf/)**   | **[Upload Files](https://pdfrest.com/apitools/upload-files/)**                   | **[Zip Files](https://pdfrest.com/apitools/zip-files/)** |
+| **[Flatten Forms](https://pdfrest.com/apitools/flatten-forms/)** | **[Import Form Data](https://pdfrest.com/apitools/import-form-data/)** | **[Export Form Data](https://pdfrest.com/apitools/export-form-data/)** | **[Extract Text](https://pdfrest.com/apitools/extract-text/)** |
+| **[PDF to Word](https://pdfrest.com/apitools/pdf-to-word/)** | **[PDF to Excel](https://pdfrest.com/apitools/pdf-to-excel/)** | **[PDF to PowerPoint](https://pdfrest.com/apitools/pdf-to-powerpoint/)** | | 
 
 <br>
 
@@ -49,12 +49,12 @@ Click below for a video walk-through:
 <br>
 
 ## API Documentation
-After you've successfully sent an API Call using these examples in Postman, take a look at the [Documentation](https://pdfrest.com/documentation.html) for each API endpoint for a full description of parameters you can adjust to customize your solution.
+After you've successfully sent an API Call using these examples in Postman, take a look at the [Documentation](https://pdfrest.com/documentation/) for each API endpoint for a full description of parameters you can adjust to customize your solution.
 
 <br>
 
 ## API Code Samples
-Easily integrate pdfRest with your application by starting from functional [Code Samples](https://github.com/datalogics/pdf-rest-api-samples) with Python, PHP, JavaScript, and cURL.
+Easily integrate pdfRest with your application by starting from functional [Code Samples](https://github.com/datalogics/pdf-rest-api-samples/) with Python, PHP, JavaScript, and cURL.
 
 
 <br>
